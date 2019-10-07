@@ -7,14 +7,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <script>function insert(num) {
-      document.form.textview.value = document.form.textview.value + num
+      document.form.textview.value = document.form.textview.value + num;
     }
 
     function equal() {
-      var exp = document.form.textview.value;
+      const exp = document.form.textview.value;
       if (exp) {
-        document.form.textview.value = eval(document.form.textview.value)
+        document.form.textview.value = eval(exp);
       }
+    }
+    function clean() {
+      document.form.textview.value = "";
+    }
+
+    function back() {
+      const exp = document.form.textview.value;
+      document.form.textview.value = exp.substring(0, exp.length - 1);
     }
   </script>
   <link rel="stylesheet" href="style.css">
@@ -27,8 +35,8 @@
     </form>
     <table>
       <tr>
-        <td><input class="button" type="button" value="C"></td>
-        <td><input class="button" type="button" value="<"></td>
+        <td><input class="button" type="button" value="C" onClick="clean()"></td>
+        <td><input class="button" type="button" value="<" onClick="back()"></td>
         <td><input class="button" type="button" value="/" onClick="insert('/')"></td>
         <td><input class="button" type="button" value="x" onClick="insert('*')"></td>
       </tr>
@@ -49,6 +57,10 @@
         <td><input class="button" type="button" value="2" onClick="insert(2)"></td>
         <td><input class="button" type="button" value="3" onClick="insert(3)"></td>
         <td><input class="button" type="button" value="=" onClick="equal()"></td>
+      </tr>
+      <tr>
+        <td><input class="button" type="button" value="0" onClick="insert(0)"></td>
+        <td><input class="button" type="button" value="." onClick="insert('.')"></td>
       </tr>
     </table>
     </form>
