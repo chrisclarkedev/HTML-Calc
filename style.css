@@ -3,6 +3,13 @@
   padding:0;
 }
 
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%)
+}
+
 .button{
   width:50px;
   height:50px;
@@ -16,4 +23,12 @@
   margin: 5px;
   font-size: 25px;
   padding: 2px;
+}
+
+.equal-btn{
+  width: 300px;
+}
+
+#equal{
+  height: 500px;
 }

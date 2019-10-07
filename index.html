@@ -56,10 +56,12 @@
         <td><input class="button" type="button" value="1" onClick="insert(1)"></td>
         <td><input class="button" type="button" value="2" onClick="insert(2)"></td>
         <td><input class="button" type="button" value="3" onClick="insert(3)"></td>
-        <td><input class="button" type="button" value="=" onClick="equal()"></td>
+        <div class="equal">
+          <td><input class="button" type="button" value="=" onClick="equal()"></td>
+        </div>
       </tr>
       <tr>
-        <td><input class="button" type="button" value="0" onClick="insert(0)"></td>
+        <td colspan=2><input class="button" style="width:106px" type="button" value="0" onClick="insert(0)"></td>
         <td><input class="button" type="button" value="." onClick="insert('.')"></td>
       </tr>
     </table>
