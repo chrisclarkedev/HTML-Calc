@@ -8,8 +8,12 @@
   height:50px;
   font-size: 25px;
   margin: 1pxs;
+  cursor: pointer;
 }
 
 .textview{
-  width: 203px;
+  width: 201px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 2px;
 }
