@@ -1,7 +1,6 @@
 *{
   margin:0;
   padding:0;
-  background-color: green;
 }
 
 .main{
@@ -9,6 +8,7 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  background-color: green;
 }
 
 .button{
@@ -18,7 +18,7 @@
   margin: 1px;
   cursor: pointer;
   background-color: whitesmoke;
-  border-radius: 25%;
+  border-radius: 5%;
 }
 
 .textview{
