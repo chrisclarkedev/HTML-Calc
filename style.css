@@ -1,34 +1,28 @@
 *{
   margin:0;
   padding:0;
+  background-color: green;
 }
 
 .main{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%)
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .button{
   width:50px;
   height:50px;
   font-size: 25px;
-  margin: 1pxs;
+  margin: 1px;
   cursor: pointer;
+  background-color: whitesmoke;
 }
 
 .textview{
   width: 201px;
   margin: 5px;
   font-size: 25px;
-  padding: 2px;
-}
-
-.equal-btn{
-  width: 300px;
-}
-
-#equal{
-  height: 500px;
+  padding: 5px;
 }

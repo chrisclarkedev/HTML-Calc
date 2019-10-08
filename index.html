@@ -29,6 +29,7 @@
 </head>
 
 <body>
+  <div className="background"></div>
   <div class="main">
     <form name="form">
       <input class="textview" name="textview">
@@ -56,8 +57,8 @@
         <td><input class="button" type="button" value="1" onClick="insert(1)"></td>
         <td><input class="button" type="button" value="2" onClick="insert(2)"></td>
         <td><input class="button" type="button" value="3" onClick="insert(3)"></td>
-        <div class="equal">
-          <td><input class="button" type="button" value="=" onClick="equal()"></td>
+        <div className="equal">
+          <td rowspan=5><input class="button" style="height: 100px" type="button" value="=" onclick="equal()"></td>
         </div>
       </tr>
       <tr>
