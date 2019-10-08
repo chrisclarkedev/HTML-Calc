@@ -18,6 +18,7 @@
   margin: 1px;
   cursor: pointer;
   background-color: whitesmoke;
+  border-radius: 25%;
 }
 
 .textview{
@@ -25,4 +26,5 @@
   margin: 5px;
   font-size: 25px;
   padding: 5px;
+  background-color: white;
 }
