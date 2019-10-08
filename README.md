@@ -1,3 +1,22 @@
 # HTML-Calc
 
-Calculator created using JS, HTML & CSS.
+## Description ###
+Web App Calculator created using JS, (vanilla)HTML & CSS.
+
+
+
+**Expected Challenges** 
+
+Familiarizing self with Vanilla HTML and JS again.
+
+
+### Features-List ###
+
+User is able to use the various buttons on the calculator to make calculations.
+
+Working addition, subtraction, multiplication and division buttons that will do said calculations.
+
+Back button (<) which deletes the previous number infront of cursor.
+
+Clear button (C) which clears the view window deleting any numbers displayed there.
+
