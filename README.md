@@ -1,4 +1,5 @@
 # HTML-Calc
+Click [here](http://html_calc_cc.surge.sh/) to try it out!
 
 ## Description ###
 Web App Calculator created using JS, (vanilla)HTML & CSS.
