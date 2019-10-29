@@ -22,5 +22,5 @@ Back button (<) which deletes the previous number infront of cursor.
 Clear button (C) which clears the view window deleting any numbers displayed there.
 
 
-**Sample View**
+### Sample View ###
 ![picture alt](https://i.ibb.co/tqpsr6j/Screen-Shot-2019-10-29-at-4-41-35-PM.png)
