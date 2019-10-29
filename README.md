@@ -20,3 +20,6 @@ Back button (<) which deletes the previous number infront of cursor.
 
 Clear button (C) which clears the view window deleting any numbers displayed there.
 
+
+**Sample View**
+![picture alt](https://ibb.co/6H0PCS9)
