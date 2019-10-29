@@ -8,7 +8,7 @@ Web App Calculator created using JS, (vanilla)HTML & CSS.
 
 **Expected Challenges** 
 
-Familiarizing self with Vanilla HTML and JS again.
+Familiarizing self with Vanilla HTML and JS.
 
 
 ### Features-List ###
