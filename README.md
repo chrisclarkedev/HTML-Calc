@@ -22,4 +22,4 @@ Clear button (C) which clears the view window deleting any numbers displayed the
 
 
 **Sample View**
-![picture alt](https://ibb.co/6H0PCS9)
+![picture alt](https://i.ibb.co/tqpsr6j/Screen-Shot-2019-10-29-at-4-41-35-PM.png)
